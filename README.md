@@ -1,2 +1,2 @@
 # hello_world
-repository of for the develop team of ADSO SENA
+repository of for the develop team of ADSO from SENA
