@@ -1,2 +1,5 @@
+import time
+
 print("Hola mundo \n")
-print("segundo renglon")
+time.sleep(3)
+print("segundo reglón")
