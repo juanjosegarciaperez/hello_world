@@ -18,4 +18,26 @@ def edad ():
         time.sleep(1)
         print (i+1)
 
-edad()    
+#edad()    
+
+#años actual y año de nacimiento
+
+def calcular_la_edad ():
+    #año_actual = int(input("por favor ingrese el año actual"))
+    año_nacimiento = int(input("por favor ingrese el año de nacimiento"))
+    edad = año_actual - año_nacimiento
+    for i in range(edad):
+        time.sleep(1)
+        print (i+1)
+
+#calcular_la_edad()
+
+
+def triangulo_de_numeros ():
+    numero = int(input("Por favor ingrese un número"))
+    for i in range(numero):
+        for j in range(i+1):
+            print("*", end=" ")
+        print("-")
+
+triangulo_de_numeros()        
